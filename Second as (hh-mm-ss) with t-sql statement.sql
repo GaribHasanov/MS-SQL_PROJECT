@@ -20,4 +20,4 @@ RIGHT('0' + CAST((DATEDIFF(second,login_time,logout_time) / 60) % 60 AS VARCHAR)
 RIGHT('0' + CAST(DATEDIFF (second,login_time,logout_time) % 60 AS VARCHAR),2)[user_logon_time]
 FROM Log_Table
 
---Note: This code calculates only in second.
+--Note: This code calculates only in second...............
